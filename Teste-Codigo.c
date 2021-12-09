@@ -6,11 +6,10 @@ int main(){
        float e[73]={0, 4.0, 3.5, 3.0, 3.0, 2.8, 2.5, 2.5, 2.5, 2.4, 2.4, 2.2, 2.2, 2.2, 2.2, 2.2, 2.2, 2.1, 2.1, 2.1, 2.1, 2.0, 2.0, 2.0, 1.9, 1.9, 1.9, 1.9, 1.9, 1.9, 1.9, 1.9, 1.9, 1.9, 1.8, 1.8, 1.8, 1.8, 1.8, 1.8, 1.7, 1.7, 1.7, 1.6, 1.6, 1.6, 1.6, 1.6, 1.6, 1.5, 1.5, 1.5, 1.5, 1.4, 1.3, 1.3, 1.2, 1.2, 1.0, 1.0, 1.0, 1.0, 0.9, 0.9, 0.8, 0.8, 0.7};
        char P = 'i';
 
-                          printf("Vizualizador de Eletronegatividade - RC2\n\n");
+                          printf("Vizualizador de Eletronegatividade\n\n");
                           
                    while(P != 'x'){
                           Menu();
-
                    switch (op){
                    case 1:
                           printf("A eletronegatividade do Fluor eh de %.2f\n\n", e[1]);
